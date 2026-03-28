@@ -1,3 +1,3 @@
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 COPY target/spendly-0.0.1-SNAPSHOT.jar spendly-0.0.1-SNAPSHOT.jar
 ENTRYPOINT ["java", "-jar", "spendly-0.0.1-SNAPSHOT.jar"]
